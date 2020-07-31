@@ -14,8 +14,6 @@ async def on_ready():
     print("준비 완료!!")
 
 
-
-
 @client.event
 async def on_message(message):
     if message.content.startswith("!!dm"):
